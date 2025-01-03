@@ -1,0 +1,16 @@
+{
+  "name": "cipher-network",
+  "version": "3.0.0",
+  "description": "VM Ethereum Network",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --env-file .env --watch app",
+    "start": "node --env-file .env app"
+  },
+  "keywords": [],
+  "author": "Christopher Carrasco",
+  "license": "MIT",
+  "dependencies": {
+    "ganache": "^7.9.2"
+  }
+}
